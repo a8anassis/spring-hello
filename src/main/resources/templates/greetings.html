@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Greetings</title>
+    <link rel="stylesheet" href="../styles/main.css">
+
+</head>
+<body>
+    <div th:replace="header :: navbar"></div>
+
+    <h1>Hello <span th:text="${name}"></span></h1>
+</body>
+</html>
